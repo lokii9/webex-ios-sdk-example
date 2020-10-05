@@ -620,7 +620,12 @@ class VideoCallViewController: BaseViewController,MultiStreamObserver {
     
     @IBAction private func toggleReceivingAudio(_ sender: AnyObject) {
         // True if the local party of this *call* is receiving audio. Otherwise, false.
-        self.currentCall?.receivingAudio = receivingAudioSwitch.isOn
+//        self.currentCall?.receivingAudio = receivingAudioSwitch.isOn
+        if receivingAudioSwitch.isOn {
+            currentCall?.remoteVideoRenderMode = .fit
+        } else {
+            currentCall?.remoteVideoRenderMode = .cropFill
+        }
     }
     
     @IBAction func fullScreenButtonTouchUpInside(_ sender: Any) {

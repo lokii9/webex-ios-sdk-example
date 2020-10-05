@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="faV-VB-5KG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="faV-VB-5KG">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -2592,7 +2592,7 @@
                                                 <color key="textColor" red="0.41568627450000001" green="0.41960784309999999" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receiving audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQ3-jc-APu">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CropFill/Fit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQ3-jc-APu">
                                                 <rect key="frame" x="0.0" y="194.66666666666669" width="325" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.41960784309999999" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2990,6 +2990,12 @@
             <point key="canvasLocation" x="4978" y="428"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bcn-z4-zYB"/>
+        <segue reference="o97-n6-3bs"/>
+        <segue reference="bra-Lu-H6t"/>
+        <segue reference="Rbg-Gd-nPZ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="CallAcceptNormal" width="78" height="78"/>
         <image name="CallAcceptSelected" width="66" height="66"/>
@@ -3005,10 +3011,4 @@
         <image name="Wallpaper" width="833.33331298828125" height="468.66665649414062"/>
         <image name="Webex" width="66.666664123535156" height="66.666664123535156"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="bcn-z4-zYB"/>
-        <segue reference="o97-n6-3bs"/>
-        <segue reference="bra-Lu-H6t"/>
-        <segue reference="Rbg-Gd-nPZ"/>
-    </inferredMetricsTieBreakers>
 </document>
